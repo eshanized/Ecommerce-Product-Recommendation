@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from django.contrib.messages import constants as messages
 from pathlib import Path
 from django.urls import reverse_lazy
-from decouple import config
+# from decouple import config
 import os
 
 MESSAGE_TAGS = {
