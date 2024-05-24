@@ -26,7 +26,7 @@ def get_product_cat(product_name):
 
     lvl1_gender_cat_model = joblib.load(get_ml_model_file_path(mlModelsFiles['gender_model']))
     lvl2_sub_cat_model = joblib.load(get_ml_model_file_path(mlModelsFiles['sub_cat']))
-    lvl3_articelType_cat_model = joblib.load(get_ml_model_file_path(mlModelsFiles['articel_type']))
+    # lvl3_articelType_cat_model = joblib.load(get_ml_model_file_path(mlModelsFiles['articel_type']))
 
     lvl3_top_men_cat_model = joblib.load(get_ml_model_file_path(mlModelsFiles['top_men']))
     lvl3_top_women_cat_model = joblib.load(get_ml_model_file_path(mlModelsFiles['top_women']))
