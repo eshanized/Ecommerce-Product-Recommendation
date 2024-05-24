@@ -16,6 +16,8 @@ from applications.seller_accounts.product_cat_ML import get_product_cat
 from django.conf import settings
 import os
 import pandas as pd
+from sklearn.feature_extraction.text import TfidfTransformer
+
 
 # Create your views here.
 
